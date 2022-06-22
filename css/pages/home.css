@@ -16,10 +16,35 @@
 
 /* Custom style below */
 
-.section.container.bg-main {
+.hero {
     padding-bottom: 20px;
+}
+
+.hero > .row-short {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.logo {
+    height: 80px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.clock {
+    margin: 40px 0;
 }
 
 footer.container {
     padding-top: 0;
+}
+
+@media (max-width: 500px) {
+    .main-title {
+        font-size: 60px;
+
+    }
 }
