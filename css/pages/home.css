@@ -173,6 +173,13 @@ footer.container {
         width: 100%;
     }
 
+    .credits {
+        flex-direction: column;
+    }
+
+    .credits > p::after {
+        display: none;
+    }
 }
 
 @media (max-width: 500px) {
