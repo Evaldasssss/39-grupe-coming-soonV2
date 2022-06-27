@@ -86,6 +86,7 @@
 
 footer.container {
     padding-top: 0;
+    text-align: center;
 }
 
 .socials {
@@ -112,6 +113,21 @@ footer.container {
 .socials > a:hover {
     background-color: #fff;
     color: var(--main-color);
+}
+
+.credits {
+    display: flex;
+    gap: 30px;
+    color: #fff8;
+    justify-content: center;
+}
+
+.credits > p {
+
+}
+
+.credits > p > a {
+    color: #fff;
 }
 
 /* FOOTER SECTION - end */
