@@ -21,6 +21,12 @@
 
 .hero {
     padding-bottom: 20px;
+    background-image: url(../../img/Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .hero > .row-short {
