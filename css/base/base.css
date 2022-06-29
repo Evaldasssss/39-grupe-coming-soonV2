@@ -17,6 +17,7 @@ h1 {
 }
 
 :root {
+    scroll-behavior: smooth;
     /* custom-properties / variables */
     --main-color: #03A9F5;
     --secondary-color: #EA1E64;
