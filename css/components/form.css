@@ -1,0 +1,53 @@
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-group {
+
+}
+
+.form-group-2 {
+    grid-column: span 2;
+}
+
+.form input,
+.form textarea {
+    color: #333;
+    font-size: 20px;
+    line-height: 1.2em;
+    padding: 0.4em 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    font-family: inherit;
+    width: 100%;
+}
+
+.form textarea {
+    min-height: 100px;
+    max-height: 400px;
+    resize: vertical;
+}
+
+.form > button {
+    grid-column-end: -1;
+    justify-self: end;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    padding: 0.8em 1.2em;
+    border-radius: 0.2em;
+}
+
+@media (max-width: 900px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+    .form > .form-group-2,
+    .form > button {
+        grid-column: span 1;
+    }
+}
