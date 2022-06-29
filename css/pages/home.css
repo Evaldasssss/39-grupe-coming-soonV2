@@ -9,7 +9,8 @@
 /* components */
 
 @import '../components/button.css';
-@import '../components/clock.css';
+/* @import '../components/clock-flex.css'; */
+@import '../components/clock-grid.css';
 @import '../components/form.css';
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
@@ -20,6 +21,12 @@
 
 .hero {
     padding-bottom: 20px;
+    background-image: url(../../img/Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .hero > .row-short {
@@ -27,6 +34,7 @@
     flex-direction: column;
     text-align: center;
     gap: 20px;
+    align-items: center;
 }
 
 .logo {

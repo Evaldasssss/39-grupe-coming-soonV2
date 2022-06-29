@@ -10,6 +10,12 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* different from lesson */
+h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
 :root {
     /* custom-properties / variables */
     --main-color: #03A9F5;
